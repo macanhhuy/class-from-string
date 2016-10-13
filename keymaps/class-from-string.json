@@ -1,0 +1,8 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-s": "class-from-string:convert_snakecase",
+    "ctrl-alt-c": "class-from-string:convert_camel",
+    "ctrl-alt-d": "class-from-string:convert_dashes",
+    "ctrl-alt-n": "class-from-string:notification"
+  }
+}

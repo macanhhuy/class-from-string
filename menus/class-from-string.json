@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Convert To Snake Case",
+        "command": "class-from-string:convert_snakecase"
+      },
+      {
+        "label": "Convert To Camel Case",
+        "command": "class-from-string:convert_camel"
+      },
+      {
+        "label": "Convert To Class",
+        "command": "class-from-string:convert_class"
+      },
+      {
+        "label": "Convert To Dashes",
+        "command": "class-from-string:convert_dashes"
+      },
+      {
+        "label": "Show Notification",
+        "command": "class-from-string:notification"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "class-from-string",
+          "submenu": [
+            {
+              "label": "Convert Snake Case",
+              "command": "class-from-string:convert_snakecase"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
